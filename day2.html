@@ -8,7 +8,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>What is going on?</p>
-    <h1>changes have been made</h1>
+  <form action="#" method="get">
+      <fieldset>
+          <legend> Your Details </legend>
+          Name: 
+          <input type="text" name="name" id="name"> <br> <br>
+          Email:
+          <input type="email" name="email" id="email"> <br><br>
+          
+      </fieldset>
+      <br><br>
+          <fieldset>
+              <legend>Your Review:</legend>
+              How did you hear about us? 
+              <select name="option" id="option">
+                  <option value="google">Google</option>
+                  <option value="youtube">Youtube</option>
+                  <option value="facebook">facebook</option>
+                  <option value="Instagram">Instagram</option>
+              </select> <br> <br>
+              Would you visit again?
+              <input type="radio" name="yes" id="yes"> Yes <input type="radio" name="no" id="no"> No <input type="radio" name="maybe" id="maybe"> maybe
+              <br><br>
+              Comments: <br>
+              <textarea name="comments" id="comments" cols="100" rows="5"></textarea> <br><br>
+              <input type="checkbox" name="update" id="update"> Sign me up for email updates. <br><br>
+              <input type="button" value="Submit Review"> 
+              <br><br>
+
+
+          </fieldset>
+
+
+  </form>
 </body>
 </html>
